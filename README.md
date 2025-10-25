@@ -1,5 +1,3 @@
-# Tabroni-CV
-CV Pribadi Tabroni
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -150,3 +148,4 @@ CV Pribadi Tabroni
     </footer>
 </body>
 </html>
+
