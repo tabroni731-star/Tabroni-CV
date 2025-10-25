@@ -3,41 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabroni | PPIC Supervisor</title>
+    <title>Coba Coba</title>
     <style>
-        /* ======= STYLE DASAR ======= */
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fb;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             color: #333;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background: linear-gradient(135deg, #004e92, #000428);
+            background-color: #004e92;
             color: white;
             text-align: center;
-            padding: 60px 20px;
+            padding: 50px 20px;
         }
 
         header h1 {
+            margin: 0;
             font-size: 2.5em;
-            margin-bottom: 10px;
         }
 
         header p {
             font-size: 1.2em;
-            opacity: 0.9;
+            margin-top: 5px;
         }
 
         main {
-            max-width: 900px;
+            max-width: 800px;
             margin: 40px auto;
-            background: white;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            border-radius: 10px;
+            background-color: white;
             padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
 
         section {
@@ -45,9 +44,9 @@
         }
 
         h2 {
+            color: #004e92;
             border-left: 5px solid #004e92;
             padding-left: 10px;
-            color: #004e92;
         }
 
         ul {
@@ -59,33 +58,6 @@
             margin-bottom: 10px;
         }
 
-        .info {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .info div {
-            width: 48%;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            background: #000428;
-            color: white;
-            padding: 15px 10px;
-            font-size: 0.9em;
-            margin-top: 30px;
-        }
-
-        /* ======= RESPONSIVE ======= */
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.8em; }
-            .info div { width: 100%; }
-            main { padding: 20px; }
-        }
-
         a {
             color: #004e92;
             text-decoration: none;
@@ -93,6 +65,29 @@
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .info div {
+            flex: 1 1 200px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #00264d;
+            color: white;
+            padding: 15px 10px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2em; }
+            main { padding: 20px; }
         }
     </style>
 </head>
@@ -112,13 +107,6 @@
         </section>
 
         <section>
-            <h2>Pendidikan</h2>
-            <ul>
-                <li>SMK Akuntansi</li>
-            </ul>
-        </section>
-
-        <section>
             <h2>Pengalaman Kerja</h2>
             <ul>
                 <li><strong>PPIC Supervisor</strong> – PT Sarana Prima Nusantara Abadi (2012 – 2021)</li>
@@ -126,25 +114,10 @@
                 <li><strong>PPIC Supervisor</strong> – PT Ultra Prima Plast (2024 – Sekarang)</li>
             </ul>
         </section>
-
-        <section>
-            <h2>Keahlian</h2>
-            <ul>
-                <li>Perencanaan Produksi (Planning)</li>
-                <li>Manajemen Stok (Stock Management)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Bahasa</h2>
-            <ul>
-                <li>Bahasa Indonesia</li>
-            </ul>
-        </section>
     </main>
 
     <footer>
-        &copy; 2025 Tabroni | Dibuat dengan ❤️ oleh ChatGPT
+        &copy; 2025 Tabroni | Website Coba Coba
     </footer>
 </body>
 </html>
